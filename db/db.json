@@ -1,52 +1,404 @@
 {
-  "toys": [
+  "homes": [
     {
       "id": 1,
-      "name": "Woody",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 8
+      "type": "House",
+      "county": "Montgomery",
+      "beds": 4,
+      "bathrooms": 3,
+      "image": "https://example.com/image1.jpg"
     },
     {
       "id": 2,
-      "name": "Buzz Lightyear",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 14
+      "type": "Apartment",
+      "county": "Anne Arundel",
+      "beds": 2,
+      "bathrooms": 1,
+      "image": "https://example.com/image2.jpg"
     },
     {
       "id": 3,
-      "name": "Mr. Potato Head",
-      "image": "https://vignette.wikia.nocookie.net/universe-of-smash-bros-lawl/images/d/d8/Mr-potato-head-toy-story.gif/revision/latest?cb=20151129131217",
-      "likes": 3
+      "type": "Condo",
+      "county": "Baltimore",
+      "beds": 3,
+      "bathrooms": 2,
+      "image": "https://example.com/image3.jpg"
     },
     {
       "id": 4,
-      "name": "Slinky Dog",
-      "image": "https://www.freeiconspng.com/uploads/slinky-png-transparent-1.png",
-      "likes": 4
+      "type": "House",
+      "county": "Howard",
+      "beds": 5,
+      "bathrooms": 4,
+      "image": "https://example.com/image4.jpg"
     },
     {
       "id": 5,
-      "name": "Rex",
-      "image": "http://umich.edu/~chemh215/W11HTML/SSG5/ssg5.2/FRex.png",
-      "likes": 1
+      "type": "Townhouse",
+      "county": "Prince George's",
+      "beds": 3,
+      "bathrooms": 2,
+      "image": "https://example.com/image5.jpg"
     },
     {
       "id": 6,
-      "name": "Bo Peep",
-      "image": "http://4.bp.blogspot.com/_OZHbJ8c71OM/Sog43CMFX2I/AAAAAAAADEs/0AKX0XslD4g/s400/bo.png",
-      "likes": 2
+      "type": "Apartment",
+      "county": "Frederick",
+      "beds": 1,
+      "bathrooms": 1,
+      "image": "https://example.com/image6.jpg"
     },
     {
       "id": 7,
-      "name": "Hamm!!!!",
-      "image": "https://cdn140.picsart.com/244090226021212.png?r1024x1024",
-      "likes": 0
+      "type": "House",
+      "county": "Baltimore",
+      "beds": 4,
+      "bathrooms": 3,
+      "image": "https://example.com/image7.jpg"
     },
     {
       "id": 8,
-      "name": "Little Green Men",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
-      "likes": -2
+      "type": "Condo",
+      "county": "Montgomery",
+      "beds": 2,
+      "bathrooms": 2,
+      "image": "https://example.com/image8.jpg"
+    },
+    {
+      "id": 9,
+      "type": "Townhouse",
+      "county": "Anne Arundel",
+      "beds": 3,
+      "bathrooms": 2,
+      "image": "https://example.com/image9.jpg"
+    },
+    {
+      "id": 10,
+      "type": "House",
+      "county": "Harford",
+      "beds": 3,
+      "bathrooms": 2,
+      "image": "https://example.com/image10.jpg"
+    },
+    {
+      "id": 11,
+      "type": "Apartment",
+      "county": "Carroll",
+      "beds": 1,
+      "bathrooms": 1,
+      "image": "https://example.com/image11.jpg"
+    },
+    {
+      "id": 12,
+      "type": "House",
+      "county": "Charles",
+      "beds": 4,
+      "bathrooms": 3,
+      "image": "https://example.com/image12.jpg"
+    },
+    {
+      "id": 13,
+      "type": "Townhouse",
+      "county": "Frederick",
+      "beds": 3,
+      "bathrooms": 2,
+      "image":     "https://example.com/image13.jpg"
+    },
+    {
+      "id": 14,
+      "type": "Condo",
+      "county": "Montgomery",
+      "beds": 2,
+      "bathrooms": 2,
+      "image": "https://example.com/image14.jpg"
+    },
+    {
+      "id": 15,
+      "type": "House",
+      "county": "Anne Arundel",
+      "beds": 4,
+      "bathrooms": 3,
+      "image": "https://example.com/image15.jpg"
+    },
+    {
+      "id": 16,
+      "type": "Apartment",
+      "county": "Baltimore",
+      "beds": 1,
+      "bathrooms": 1,
+      "image": "https://example.com/image16.jpg"
+    },
+    {
+      "id": 17,
+      "type": "House",
+      "county": "Howard",
+      "beds": 3,
+      "bathrooms": 2,
+      "image": "https://example.com/image17.jpg"
+    },
+    {
+      "id": 18,
+      "type": "Townhouse",
+      "county": "Prince George's",
+      "beds": 4,
+      "bathrooms": 3,
+      "image": "https://example.com/image18.jpg"
+    },
+    {
+      "id": 19,
+      "type": "Condo",
+      "county": "Frederick",
+      "beds": 2,
+      "bathrooms": 2,
+      "image": "https://example.com/image19.jpg"
+    },
+    {
+      "id": 20,
+      "type": "House",
+      "county": "Baltimore",
+      "beds": 5,
+      "bathrooms": 4,
+      "image": "https://example.com/image20.jpg"
+    },
+    {
+      "id": 21,
+      "type": "Apartment",
+      "county": "Montgomery",
+      "beds": 1,
+      "bathrooms": 1,
+      "image": "https://example.com/image21.jpg"
+    },
+    {
+      "id": 22,
+      "type": "Townhouse",
+      "county": "Anne Arundel",
+      "beds": 3,
+      "bathrooms": 2,
+      "image": "https://example.com/image22.jpg"
+    },
+    {
+      "id": 23,
+      "type": "House",
+      "county": "Harford",
+      "beds": 4,
+      "bathrooms": 3,
+      "image": "https://example.com/image23.jpg"
+    },
+    {
+      "id": 24,
+      "type": "Apartment",
+      "county": "Carroll",
+      "beds": 2,
+      "bathrooms": 1,
+      "image": "https://example.com/image24.jpg"
+    },
+    {
+      "id": 25,
+      "type": "House",
+      "county": "Charles",
+      "beds": 3,
+      "bathrooms": 2,
+      "image": "https://example.com/image25.jpg"
+    },
+    {
+      "id": 26,
+      "type": "Townhouse",
+      "county": "Frederick",
+      "beds": 4,
+      "bathrooms": 3,
+      "image": "https://example.com/image26.jpg"
+    },
+    {
+      "id": 27,
+      "type": "Condo",
+      "county": "Montgomery",
+      "beds": 2,
+      "bathrooms": 2,
+      "image": "https://example.com/image27.jpg"
+    },
+    {
+      "id": 28,
+      "type": "House",
+      "county": "Anne Arundel",
+      "beds": 4,
+      "bathrooms": 3,
+      "image": "https://example.com/image28.jpg"
+    },
+    {
+      "id": 29,
+      "type": "Apartment",
+      "county": "Baltimore",
+      "beds": 1,
+      "bathrooms": 1,
+      "image": "https://example.com/image29.jpg"
+    },
+    {
+      "id": 30,
+      "type": "House",
+      "county": "Howard",
+      "beds": 3,
+      "bathrooms": 2,
+      "image": "https://example.com/image30.jpg"
+    },
+    {
+      "id": 31,
+      "type": "Townhouse",
+      "county": "Prince George's",
+      "beds": 4,
+      "bathrooms": 3,
+      "image": "https://example.com/image31.jpg"
+    },
+    {
+      "id": 32,
+      "type": "Condo",
+      "county": "Frederick",
+      "beds": 2,
+      "bathrooms": 2,
+      "image": "https://example.com/image32.jpg"
+    },
+    {
+      "id": 33,
+      "type": "House",
+      "county": "Baltimore",
+      "beds": 5,
+      "bathrooms": 4,
+      "image": "https://example.com/image33.jpg"
+    },
+    {
+      "id": 34,
+      "type": "Apartment",
+      "county": "Montgomery",
+      "beds": 1,
+      "bathrooms": 1,
+      "image": "https://example.com/image34.jpg"
+    },
+    {
+      "id": 35,
+      "type": "Townhouse",
+      "county": "Anne Arundel",
+      "beds": 3,
+      "bathrooms": 2,
+      "image": "https://example.com/image35.jpg"
+    },
+    {
+      "id": 36,
+      "type": "House",
+      "county": "Harford",
+      "beds": 4,
+      "bathrooms": 3,
+      "image": "https://example.com/image36.jpg"
+    },
+    {
+      "id": 37,
+      "type": "Apartment",
+      "county": "Carroll",
+      "beds": 2,
+      "bathrooms": 1,
+      "image": "https://example.com/image37.jpg"
+    },
+    {
+      "id": 38,
+      "type": "House",
+      "county": "Charles",
+      "beds": 3,
+      "bathrooms": 2,
+      "image": "https://example.com/image38.jpg"
+    },
+    {
+      "id": 39,
+      "type": "Townhouse",
+      "county": "Frederick",
+      "beds": 4,
+      "bathrooms": 3,
+      "image": "https://example.com/image39.jpg"
+    },
+    {
+      "id": 40,
+      "type": "House",
+      "county": "Montgomery",
+      "beds": 3,
+      "bathrooms": 2,
+      "image": "https://example.com/image40.jpg"
+    },
+    {
+      "id": 41,
+      "type": "Condo",
+      "county": "Anne Arundel",
+      "beds": 2,
+      "bathrooms": 1,
+      "image": "https://example.com/image41.jpg"
+    },
+    {
+      "id": 42,
+      "type": "Apartment",
+      "county": "Baltimore",
+      "beds": 1,
+      "bathrooms": 1,
+      "image": "https://example.com/image42.jpg"
+    },
+    {
+      "id": 43,
+      "type": "House",
+      "county": "Howard",
+      "beds": 4,
+      "bathrooms": 3,
+      "image": "https://example.com/image43.jpg"
+    },
+    {
+      "id": 44,
+      "type": "Townhouse",
+      "county": "Prince George's",
+      "beds": 3,
+      "bathrooms": 2,
+      "image": "https://example.com/image44.jpg"
+    },
+    {
+      "id": 45,
+      "type": "Condo",
+      "county": "Frederick",
+      "beds": 2,
+      "bathrooms": 2,
+      "image": "https://example.com/image45.jpg"
+    },
+    {
+      "id": 46,
+      "type": "House",
+      "county": "Baltimore",
+      "beds": 5,
+      "bathrooms": 4,
+      "image": "https://example.com/image46.jpg"
+    },
+    {
+      "id": 47,
+      "type": "Apartment",
+      "county": "Montgomery",
+      "beds": 1,
+      "bathrooms": 1,
+      "image": "https://example.com/image47.jpg"
+    },
+    {
+      "id": 48,
+      "type": "Townhouse",
+      "county": "Anne Arundel",
+      "beds": 3,
+      "bathrooms": 2,
+      "image": "https://example.com/image48.jpg"
+    },
+    {
+      "id": 49,
+      "type": "House",
+      "county": "Harford",
+      "beds": 4,
+      "bathrooms": 3,
+      "image": "https://example.com/image49.jpg"
+    },
+    {
+      "id": 50,
+      "type": "Apartment",
+      "county": "Carroll",
+      "beds": 2,
+      "bathrooms": 1,
+      "image": "https://example.com/image50.jpg"
     }
   ]
 }
