@@ -304,7 +304,7 @@
       "id": 31,
       "type": "Townhouse",
       "county": "Prince George's",
-      "address": "3220 Capital Centre Blvd",
+      "address": "3220 Capital Blvd",
       "beds": 4,
       "bathrooms": 3,
       "image": "https://images.homes.com/listings/102/9924714723-571865651-original.jpg",
@@ -499,6 +499,16 @@
       "bathrooms": 1,
       "image": "https://images1.apartments.com/i2/-R2n9jMc7A0SVBIifw2CYgVWQFxoZjjGZg9zdtq8_gs/102/meadow-creek-apartments-westminster-md-building-photo.jpg?p=1",
       "price": "$263,000"
+    },
+    {
+      "county": "Anne Arundel",
+      "image": "https://images.homes.com/listings/102/8729286223-308964551-original.jpg",
+      "type": "House",
+      "beds": "3",
+      "bathrooms": "3",
+      "price": "$428,000",
+      "address": "5 home Dr",
+      "id": 51
     }
   ]
 }
